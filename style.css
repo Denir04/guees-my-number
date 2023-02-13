@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(43, 42, 42);
+    color: white;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.victory-style{
+    background-color: rgb(52, 145, 36);
+}
+
+header{
+    position: relative;
+    border-bottom: 5px solid white;
+}
+
+header .first-row{
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+    margin: 20px;
+}
+
+.secret-number{
+    background: #eee;
+    color: #333;
+    position: absolute;
+    font-size: 4rem;
+    bottom: 0;
+    left: 50%;
+    text-align: center;
+    width: 170px;
+    padding: 1rem 0em;
+    transform: translate(-50%, 50%);
+}
+
+#title{
+    align-self: center;
+    font-size: 2.4em;
+    text-align: center;
+}
+
+.text-small{
+    font-size: 0.8em;
+}
+
+.text-middle{
+    font-size: 1.4em;
+}
+
+.btn{
+    height: 80px;
+    width: 170px;
+    font-size: 1.5em;
+    color: rgb(43, 42, 42);
+    border: none;
+    font-family: "Press Start 2P", sans-serif;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+    padding: 100px;
+}
+
+main .left,
+main .right{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+    width: 50%;  
+}
+
+main .right{
+    padding-left: 100px;
+}
+
+main .left input{
+    width: 250px;
+    height: 120px;
+    align-self: center;
+    background-color: rgb(43, 42, 42);
+    border: 3px solid white;
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    font-family: "Press Start 2P", sans-serif;
+}
+
+main .left button{
+    align-self: center;
+}
+
+

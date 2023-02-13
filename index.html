@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class="first-row">
+        <button class="btn" id="btn-again">Again!</button>
+        <h1 id="title">Guess my Number!</h1>
+        <span class="text-small">(Between 1 and 20)</span>
+      </div>
+      <div class="secret-number">?</div>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" id="input-user"/>
+            <button class="btn" id="btn-check">Check!</button>
+        </section>
+        <section class="right">
+            <p class="text-middle" id="advice">Starting guessing...</p>
+            <p class="text-middle">💯 Score: <span id="score">20</span></p>
+            <p class="text-middle">🏆 Highscore: <span id="highscore">0</span></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
